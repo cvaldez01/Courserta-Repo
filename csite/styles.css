@@ -1,0 +1,89 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#space{
+    background:aqua;
+    width:600px;
+    height: 463px;
+
+}
+
+.bx-1,.bx-2,.bx-3,.bx-4,.bx-5{
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    margin:10px;
+    box-sizing: border-box;
+    
+}
+
+.bx-1{
+    float:right;
+}
+.bx-3{
+    float: left;
+}
+.bx-4{
+    clear: both;
+}
+.bx-5{
+    float:right;
+}
+
+
+/**********Media Query Samples*********/
+/**Large Device**/
+@media(min-width:1200px){
+    .bx-1{background-color:red;
+    }
+
+}
+
+/*** Medium Device **/
+
+@media(min-width:992px) and (max-width:1199px){
+    .bx-2{background-color:red;
+    }
+
+}
